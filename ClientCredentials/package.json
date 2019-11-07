@@ -1,0 +1,17 @@
+{
+  "name": "node-oauth-clientcredentials",
+  "version": "1.0.0",
+  "description": "Node version of the JFall oauth example",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": "",
+  "author": "SJA Stapels",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.6.0"
+  }
+}

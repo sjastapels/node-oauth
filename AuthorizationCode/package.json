@@ -1,0 +1,18 @@
+{
+  "name": "node-oauth-authorizationcode",
+  "version": "1.0.0",
+  "description": "Node version of the JFall oauth example",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": "",
+  "author": "SJA Stapels",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-session": "^1.17.0",
+    "passport": "^0.4.0",
+    "passport-github2": "^0.1.11"
+  }
+}
