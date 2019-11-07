@@ -8,8 +8,8 @@ const PORT = 8080;
 const SESSION_CONFIG = { secret: 'abc', saveUninitialized: true, resave: true };
 const REDIRECTS = { successRedirect: '/user', failureRedirect: '/login' };
 const GITHUB_CREDENTIALS = {
-    clientID: '59321c89a4e49e294483',
-    clientSecret: '812249c2339047b16c79ee044d89415e605d695c',
+    clientID: '<your github client_id>',
+    clientSecret: 'your github client_secret',
     callbackURL: 'http://localhost:8080/github/redirect'
 }
 
